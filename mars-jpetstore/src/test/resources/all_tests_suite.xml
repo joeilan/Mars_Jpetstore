@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="All Pet Store Tests">
+
+    <test name="Landing Page Tests">
+        <classes>
+            <class name="tests.LandingPageTests"/>
+        </classes>
+    </test>
+
+    <test name="Top Menu Page Tests">
+        <classes>
+            <class name="tests.TopMenuPageTests" />
+        </classes>
+    </test>
+
+    <test name="Main Page Tests">
+        <classes>
+            <class name="tests.MainPageTests" />
+        </classes>
+    </test>
+
+    <test name="Fish Page Tests">
+        <classes>
+            <class name="tests.FishPageTests" />
+        </classes>
+    </test>
+</suite>
