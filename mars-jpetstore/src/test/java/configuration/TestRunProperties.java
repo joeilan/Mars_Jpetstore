@@ -4,10 +4,10 @@ import driver.BrowserType;
 
 public class TestRunProperties {
 
- /*   public static String getGridUrl(){
+    public static String getGridUrl(){
         return ConfigurationProperties.getProperties().getProperty("grid.url");
     }
-*/
+
     public static BrowserType getBrowserToRun(){
         return BrowserType.valueOf(ConfigurationProperties.getProperties().getProperty("browser"));
     }
